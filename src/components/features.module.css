@@ -1,0 +1,9 @@
+.feature-icon svg {
+    height: 1.75rem !important;
+    width: 1.75rem !important;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}

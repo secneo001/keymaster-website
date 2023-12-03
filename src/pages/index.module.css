@@ -1,0 +1,116 @@
+strong {
+    font-weight: bolder;
+}
+
+.about .content ul {
+    padding-left: 0rem !important;
+}
+
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about .content ul strong {
+    margin-right: 10px;
+}
+
+.skill {
+    padding: .5rem 0;
+}
+
+.skill span {
+    padding: .7rem 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.skill i {
+    float: right;
+    font-style: normal;
+}
+
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: var(--bs-body-bg);
+    border: 2px solid #1f5297;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item h4 {
+    vertical-align: middle;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: rgba(var(--bs-primary-rgb), 1);
+    margin-bottom: 0px;
+}
+
+.center-title {
+    position: relative;
+    top: -0.3108333333333333em;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: var(--bs-secondary-bg);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.badge {
+    font-size: 16px;
+    font-family: var(--bs-body-font-family);
+    text-transform: none;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    border-radius: var(--bs-border-radius);
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}

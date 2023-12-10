@@ -16,11 +16,9 @@ const ProjectInfo = ({ projectData, privacy }) => {
                     <NavLink href={`${projectData.html_url}/releases`} className="p-0 text-body-secondary">Latest version: {projectData.releases.all[0].tag_name}</NavLink>
                 </NavItem>
                 {
-                    privacy && (
-                        <NavItem className="mb-2">
-                            <NavLink href={"privacy"} className="p-0 text-body-secondary">Privacy Policy</NavLink>
-                        </NavItem>
-                    )
+                    <NavItem className="mb-2">
+                        <NavLink href={"privacy"} className="p-0 text-body-secondary">Privacy Policy</NavLink>
+                    </NavItem>
                 }
             </Nav>
         </Col>

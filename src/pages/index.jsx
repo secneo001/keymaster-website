@@ -153,13 +153,6 @@ const PasswordManager = ({ data }) => {
         }
     }
 
-    const medias = [
-        {
-            href: "https://play.google.com/store/apps/details?id=de.davis.passwordmanager",
-            icon: <GooglePlay height={24} width={24} />
-        }
-    ]
-
     return (
         <Layout projectData={projectData} >
             <CommonPageTitle title={"KeyMaster - Password Vault"} description={"A free password manager - a reliable solution prioritizing transparency, security and privacy. Utilizing AES algorithm with random key to encrypt and secure database to store, your sensitive information stays confidential and safeguarded."} >
@@ -232,15 +225,6 @@ const PasswordManager = ({ data }) => {
                 </Container>
             </section>
 
-            {/*<Container className="my-5" data-aos="fade-up">*/}
-            {/*    <a href={projectData.html_url} className="text-decoration-none text-reset">*/}
-            {/*        <div className="p-5 text-center bg-body-tertiary rounded-3 hover">*/}
-            {/*            <Github width="100" height="100" className="mt-4 mb-3" />*/}
-            {/*            <h1 className="text-body-emphasis">View Source Code on GitHub</h1>*/}
-            {/*        </div>*/}
-            {/*    </a>*/}
-            {/*</Container>*/}
-
             {imageData && (
                 <div className="position-fixed top-0 left-0 w-100 h-100">
                     <script>
@@ -292,10 +276,6 @@ const PasswordManager = ({ data }) => {
         </Layout >
     )
 }
-
-// export const Head = () => <SearchEngineOptimization title={"KeyGo - Digital Vault"}
-//     description={"Explore my open-source password manager, prioritizing transparency and security. With powerful AES encryption, your sensitive information remains confidential and protected. Discover the trusted solution for secure password management."}
-//     keywords={"password manager, KeyGo, KeyGo - Digital Vault, open-source, data privacy, password generator, online security, aes encryption, password security, digital vault, digital data management, offrange"} />
 
 export default PasswordManager
 
